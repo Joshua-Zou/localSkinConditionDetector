@@ -1,0 +1,26 @@
+{
+  "name": "@joshyzou/localskinconditiondetector",
+  "version": "0.1.1",
+  "description": "Detects 15 of the most common skin conditions. (local version)",
+  "main": "./example/tfjsExample.js",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "@types/node": "^14.14.7",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.2.3",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ai",
+    "skin",
+    "disease",
+    "local",
+    "joshyzou"
+  ],
+  "scripts": {
+    "start": "cd example; node tfjsExample.js"
+  },
+  "author": "Joshua Zou",
+  "license": "MIT"
+}
